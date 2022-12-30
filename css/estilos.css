@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagens/bg.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+#container{
+    background-color:rgb(240, 234, 228);
+    width: 900px;
+    border-radius: 20px; 
+}
+
+.logo{
+    width: 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+li{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: large;  
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: red;
+}
+
+#conteudo{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 592px ;
+    height: 500px;
+}
+
+main p, article p{
+    color: rgb(61, 7, 7);
+    text-align: justify;
+    font-size: medium;
+}
+
+aside{
+    height: 500px;
+    width: 270px;
+    text-align: center;  
+}
+
+aside img{
+    width: 268px;
+    margin-top: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 285px;
+}
+
+article img{
+    width: 285px;
+}
+
+main h1{
+    text-align: center;
+    color: brown;
+}
+
+footer{
+    background-color:bisque;
+    margin-top: 20px;
+    text-align: center;
+    font-size: small;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
